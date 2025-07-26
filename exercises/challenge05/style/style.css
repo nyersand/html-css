@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 350px;
+    color: white;
+
+}
+
+h1{
+    font-family: var(--fonte2), cursive;
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 10px;
+}
+
+#paragrafo-principal{
+    font-family: var(--fonte1), cursive;
+    font-size: 1em;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    font-family: var(--fonte3), cursive;
+    font-size: 1.8em;
+    line-height: 4.5em;
+}
+
+.p1{
+    font-size: 2.3em;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+.p2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 1200px;
+    margin-top: 150px;
+    background-image: url(../images/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+}
+
+.p2 p { 
+    font-size: 2.3em;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.543);
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+.p3{
+    font-size: 2.3em;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.p4{
+    font-size: 2.3em;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.p5 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 1200px;
+    margin-top: 150px;
+    background-image: url(../images/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+}
+
+.p5 p { 
+    font-size: 2.3em;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.543);
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+.p6{
+    font-size: 2.3em;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.p7{
+    font-size: 2.3em;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 250px;
+}
+
+footer{
+    font-family: var(--fonte1), cursive;
+    font-size: 1em;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

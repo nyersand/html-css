@@ -103,6 +103,7 @@ a:hover{
     margin-top: 150px;
     background-image: url(../images/background002.jpg);
     background-attachment: fixed;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-position: right center;
 }

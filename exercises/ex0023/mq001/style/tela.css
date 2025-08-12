@@ -1,0 +1,36 @@
+/* Estilos para telas */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: aliceblue;
+}
+
+header h1 {
+    text-align: center;
+}
+
+menu ul{
+    list-style: none;
+    background-color: gainsboro;
+}
+
+menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}

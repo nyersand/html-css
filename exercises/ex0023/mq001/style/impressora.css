@@ -1,0 +1,32 @@
+/* Estilos para impressora */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none; /*Oculta o menu em impressoras  */
+}
+
+article{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+article::after{
+    content: "Esse artigo foi impresso através do site www.cursoemvideo.com";
+    font-size: 0.8em;
+    display: block;
+    clear: both;
+}
+

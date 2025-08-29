@@ -1,5 +1,11 @@
 /* mobile and tablet */
 
+@media only screen and (max-width: 667px) {
+section p{
+    font-size: .8rem;
+ }
+}
+
 @media only screen and (max-width: 915px) {
 body main{
     background-image: none;

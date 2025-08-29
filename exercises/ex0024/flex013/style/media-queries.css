@@ -1,0 +1,33 @@
+/* mobile and tablet */
+
+@media only screen and (max-width: 915px) {
+body main{
+    background-image: none;
+    background-color: white;
+}
+
+header{
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    margin: 1.2rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+nav a{
+    text-align: center;
+}
+
+main section{
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main section p {
+    width: 100%;
+}
+}
